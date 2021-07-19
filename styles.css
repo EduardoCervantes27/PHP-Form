@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+form {
+    width: 500px;
+    background-color: brown;   
+    margin-top: 100px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+input[type="text"],
+input[type="submit"],
+textarea {
+    display: block;
+    width: 90%;
+    padding: 5px;
+    margin-left: 10px;
+}
+form label {
+    margin-left: 6px;
+    color: white;
+    font-size: 18px;
+}
+input[type="submit"]{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.contenido-form {
+    margin: auto;
+    width: 95%;
+}
+textarea {
+    min-width: 427px;
+    max-width: 427px;
+    min-height: 180px;
+    max-height: 180px;
+}
